@@ -158,3 +158,17 @@ function calcularCircunferenciaCirculo(){
     const circunferencia = circunferenCirculo(valueRadio);
     alert(`La circunferencia del circulo es : ${circunferencia}`)
 }
+
+function alturaIsoceles(lado1,lado2,base){
+    if(lado1 === lado2){
+        console.log("Es isosceles");
+        let altura = Math.sqrt((lado1**2- base**2)/4)
+        console.log(`La altura es ${altura}`);
+
+
+    } else{
+        console.log("No es isosceles");
+    }
+}
+
+alturaIsoceles(10,10,5)
