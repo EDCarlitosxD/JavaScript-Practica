@@ -1,15 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Figuras geometricas | Curso practico Platzi</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>Figuras geométricas</h1>
-    
+    <header>
+        <h1>Figuras geometricas</h1>
+        <p>Primer taller del curso practico de JavaScript. EDCarlitosxD</p>
+    </header>
+
+    <main>
+        <section class="main--cuadrado">
+            <h2>Calcula el área y perímetro de un cuadrado</h2>
+            <div class="main--cuadrado__figura"></div>
+            <form action="" class="main--cuadrado__form">
+                <label for="InputCuadrado">Escribe cuanto mide cada lado de tu cuadrado</label>
+                <input placeholder="Escribe cuando mide" id="InputCuadrado" type="number">
+                <button class="button" type="button" onclick="calcularPerimetroCuadrado()">Calcular el
+                    perímetro</button>
+                <button class="button" type="button" onclick="calcularAreaCuadrado()">Calcular área</button>
+            </form>
+
+        </section>
+
+        <section class="main--triangulo">
+            <h2>Calcula el área y perimetro de un triangulo</h2>
+            <div class="main--triangulo__figura"></div>
+            <form action="" class="main--triangulo__form">
+                <div>
+                    <label for="InputTriangulo1">Escribe cuando mide el primer lado del triangulo</label>
+                    <input placeholder="Lado 1" id="InputTriangulo1" type="number">
+                </div>
+                <div>
+                    <label for="InputTriangulo2">Escribe cuando mide el segundo lado del triangulo</label>
+                    <input placeholder="Lado 2" id="InputTriangulo2" type="number">
+                </div>
+
+                <div>
+                    <label for="InputTrianguloBase">Escribe cuando mide la base del triangulo</label>
+                    <input placeholder="Base" id="InputTrianguloBase" type="number">
+                </div>
+                <div>
+                    <label for="InputTrianguloAltura">Escribe cuanto mide la altura del triangulo</label>
+                    <input placeholder="Altura" id="InputTrianguloAltura" type="number">
+                </div>
+
+                <button class="button" type="button" onclick="calcularPerimetroTriangulo()">Calcular el perímetro</button>
+                <button class="button" type="button" onclick="calcularAreaTriangulo()">Calcular área</button>
+
+            </form>
+        </section>
+
+        <section class="main--circulo">
+            <h2>Calcula el área y perimetro de un triangulo</h2>
+            <div class="main--circulo__figura"></div>
+            <form class="main--circulo__form" action="">
+
+                <label for="InputRadio">Ingresa el radio</label>
+                <input id="InputRadio" type="number">
+
+
+                <button onclick="calcularDiametroCirculo()" type="button" class="button">Calcular Diametro </button>
+                <button onclick="calcularAreaCirculo()" type="button" class="button">Calcular Area</button>
+                <button onclick="calcularCircunferenciaCirculo()" type="button" class="button">Calcular Circunferencia</button>
+
+            </form>
+        </section>
+    </main>
+
+    <footer>
+       
+    </footer>
 
     <script src="figuras.js"></script>
 </body>
+
 </html>
