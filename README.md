@@ -9,3 +9,9 @@ Algunas practicas que hice en Platzi con JavaScript
 - Segundo paso: Implementar las formulas a javascript
 - Tercer paso: Crear funciones
 -Cuarto paso: Integrar JavaScript con HTML
+
+## Taller #2: Porcentajes y descuentos
+- Primer paso: Definir formulas
+- Segundo paso: Implementar las formulas a JavaScript
+- Tercer paso: Crear las funciones
+- Cuarto paso: Integrar JavaScript con HTML

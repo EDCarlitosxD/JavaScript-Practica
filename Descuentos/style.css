@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'DM Sans', sans-serif;
+    background: #83a4d4; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #83a4d4, #b6fbff); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #5681c2, #b6fbff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.header{
+    min-width: 320px;
+    min-height: 130px;
+    background-color: cornflowerblue;   
+    text-align: center;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.header h1{
+    padding: 5px;
+    font-size: 2.4rem;
+}
+.header p{
+    padding: 5px;
+    margin-top: 10px;
+    font-size: 1.3rem;
+}
+
+.section--descuento{
+    width: 90%;
+    min-width: 288px;
+    max-width: 400px;
+    min-height: 320px;
+    padding: 10px;
+    margin: 40px auto  0;
+    background-color: cornflowerblue;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.section--descuento h2{
+    font-size: 1.6rem;
+    text-align: center;
+    margin: 10px;
+}
+.section--descuento__form{
+    display: flex;
+    flex-direction: column;
+}
+.section--descuento__form label{
+    font-size: 1.2rem;
+    text-align: center;
+}
+.section--descuento__form input{
+    padding: 5px;
+    margin: 7px 0 20px 0; 
+    border-radius: 7px;
+}
+.section--descuento__form button{
+
+     background-image: linear-gradient(to right, #77A1D3 0%, #79CBCA  51%, #77A1D3  100%);
+       margin: 5px;
+       padding: 7px;
+       text-align: center;
+       text-transform: uppercase;
+       transition: 0.5s;
+       background-size: 200% auto;
+       color: white;            
+       box-shadow: 0 0 20px #eee;
+       border-radius: 10px;
+       display: block;
+        font-size: 1.3rem;
+
+     
+    
+}
+.section--descuento__form button:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+
+#ResultP{
+    text-align: center;
+    font-size: 2.4rem;
+    padding: 30px;
+    text-shadow: 10px 9px 13px #CE5937;
+}
